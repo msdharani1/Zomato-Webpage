@@ -4,7 +4,7 @@
 }
 body{
     font-family: 'Merriweather', serif;
-    background-color: #f9fafc;
+    background-color: #ebf2ff;
 }
 .nav__bar{
     padding-left: 20px;
@@ -32,4 +32,22 @@ body{
     height: 40px;
     cursor: pointer;
     border-radius: 5px;
+}
+.container{
+    padding: 20px;
+}
+.hero__container{
+    width: 100%;
+}
+.hero__img{
+    width: 100%;
+}
+.hero__text{
+    font-weight: 800;
+    font-size: 30px;
+    color: #1d3557;
+    margin-top: 20px;
+}
+.hero__btn{
+    margin-top: 20px;
 }
