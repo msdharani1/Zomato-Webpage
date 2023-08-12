@@ -59,3 +59,15 @@ height: 40vh;
 .hero__btn{
     margin-top: 20px;
 }
+
+.video__container{
+    margin-top: 40px;
+}
+.video__player{
+    width: 90%;
+    height: 200px;
+    margin-left: 20px;
+}
+.video__description{
+    margin-top: 20px;
+}
