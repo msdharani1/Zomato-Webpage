@@ -39,8 +39,16 @@ body{
 .hero__container{
     width: 100%;
 }
+.hero__images{
+background-image: url(assets/svg/herobgpattren.svg);
+background-image: url(assets/svg/heroShape.svg);
+background-position: center;
+background-size: cover;
+height: 37vh;
+}
 .hero__img{
     width: 100%;
+    border-radius: 5px;
 }
 .hero__text{
     font-weight: 800;
