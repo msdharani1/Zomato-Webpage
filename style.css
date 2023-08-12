@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Merriweather', serif;
+    background-color: #f9fafc;
+}
+.nav__bar{
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #f9fafc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    z-index: 9999;
+}
+.nav__brand{
+    width: 100px;
+}
+.nav__logo{
+    width: 100%;
+}
+.btn__primary{
+    background-image: linear-gradient( to right, #ff512f 0%, #dd2476 51%, #ff512f 100% );
+    border: none;
+    color: #fff;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+}
