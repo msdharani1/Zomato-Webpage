@@ -71,3 +71,49 @@ height: 40vh;
 .video__description{
     margin-top: 20px;
 }
+
+
+/*Full Screen Responsive*/
+@media (min-width: 768px){
+    .hero__container{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+    .hero__container{
+        margin-bottom: 100px;
+        width: 100%;
+    }
+    .hero__description{
+        width: 100%;
+    }
+    .hero__images{
+        width: 100%;
+    }
+    .video__container{
+        margin: 0 10px;
+    }
+}
+@media (min-width: 1024px){
+.container {
+    max-width: 1140px;
+}
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.hero__images{
+    width: 80%;
+    height: 20vh;
+    margin-top: 0;
+}
+.hero__img{
+    width: 100%;
+}
+.hero__text{
+    width: 100%;
+}
+}
