@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
     font-family: 'Merriweather', serif;
@@ -36,12 +37,16 @@ body{
 .container{
     padding: 20px;
 }
+/*
+.bk__design2{
+position: absolute;
+  right: 2;
+}
+*/
 .hero__container{
     width: 100%;
 }
 .hero__images{
-background-image: url(assets/svg/herobgpattren.svg);
-background-image: url(assets/svg/heroShape.svg);
 background-position: center;
 background-size: cover;
 height: 40vh;
@@ -72,6 +77,77 @@ height: 40vh;
     margin-top: 20px;
 }
 
+/*Explore our menu*/
+.foot__list__container{
+    width: 100%;
+    margin-top: 40px;
+}
+.foot__list__heading{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.foot__list{
+    width: 100%;
+    background-color: #fff;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;    
+}
+.foot__image img{
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.foot__description__container{
+    margin-top: 10px;
+    padding-left: 10px;
+}
+.foot__title{
+    margin-bottom: 5px;
+}
+.foot__description .foot__place__no{
+    color: #ff512f;
+}
+.foot__description{
+    padding-left: 2px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+.view__more__container{
+    width: 100%;
+}
+.view__more{
+    width: 100%;
+    font-size: 20px;
+}
+
+
+/*---Restaurants images section---*/
+
+.res__container{
+    width: 100%;
+    margin-top: 20px;
+}
+.res__container h1{
+    font-size: 23px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.res__imahes__container{
+    width: 100%;
+}
+.restaurant1 img, .restaurant3 img{
+    border-radius: 4px;
+    margin: 0 5px;
+    width: 100%;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+.restaurant2 img, .restaurant4 img{
+    border-radius: 4px;
+    margin: 0 5px;
+    width: 100%;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+ 
 
 /*Full Screen Responsive*/
 @media (min-width: 768px){
