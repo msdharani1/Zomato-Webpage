@@ -49,7 +49,6 @@ position: absolute;
 .hero__images{
 background-position: center;
 background-size: cover;
-height: 40vh;
 }
 .hero__img{
     width: 100%;
@@ -144,7 +143,7 @@ height: 40vh;
 .restaurant2 img, .restaurant4 img{
     border-radius: 4px;
     margin: 0 5px;
-    width: 100%;
+    width: 100%;    
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
  
